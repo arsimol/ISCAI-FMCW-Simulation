@@ -51,7 +51,7 @@ figure('Name', 'Figure 2: Range-Doppler Maps', 'Position', [100, 500, 800, 350])
 subplot(1,2,1); plot_rdm(rdm_A, 'Fig 2(a) Well-separated targets', M, N);
 subplot(1,2,2); plot_rdm(rdm_B, 'Fig 2(b) Closely spaced targets', M, N);
 
-disp('Βήματα 1, 2, 3, 4, 7 (RDM & Sensing) ολοκληρώθηκαν.');
+disp('Βήματα PC-FMCW (RDM & Sensing) ολοκληρώθηκαν.');
 
 %% 4. ADB (Adaptive Driving Beam) - FIGURE 3 (ΥΨΗΛΗΣ ΑΚΡΙΒΕΙΑΣ)
 car_w = 1.8;      % Πλάτος στόχου (m)
